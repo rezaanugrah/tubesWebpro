@@ -1,0 +1,78 @@
+body {
+  background-image: url("../../files/img/login_gurui.jpg");
+}
+
+div.container {
+  background-color: white;
+  margin: 100px 0px 0px 350px;
+  width: 40%;
+  position: fixed;
+  font-family: sans-serif;
+  border: solid 5px #c9c9c9;
+  padding: 50px;
+}
+
+form_login input[type=text] {
+  font-size: 20px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+form_login input[type=password] {
+  font-size: 20px;
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+form_login input[type=submit] {
+  font-size: 20px;
+  width: auto%;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form_login input[type=submit]:hover {
+  background-color: #c9c9c9;
+}
+
+form_login input[type=reset] {
+  font-size: 20px;
+  width: auto;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #7501a4;
+  color: white;
+}
+
+form_login input[type=reset]:hover {
+  background-color: #620886;
+}
+
+footer {
+  float: left;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #757575;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7501a4;
+}

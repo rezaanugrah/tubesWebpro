@@ -1,0 +1,100 @@
+div.container {
+  width: 100%;
+  position: fixed;
+  font-family: sans-serif;
+}
+
+kiri {
+  float: left;
+  max-width: 60%;
+}
+
+kiri img {
+  width: 100%;
+  height: auto;
+}
+
+kanan {
+  float: left;
+  width: 33.99%;
+  padding: 80px 40px 0px 40px;
+}
+
+kanan h1 {
+  font-family: sans-serif;
+}
+
+form_login input[type=text] {
+  font-size: 20px;
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+form_login input[type=text]:focus {
+  border-bottom: solid 5px #7501a4;
+  outline: none;
+}
+
+form_login input[type=password] {
+  font-size: 20px;
+  width: 95%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+form_login input[type=password]:focus {
+  border-bottom: solid 5px #7501a4;
+  outline: none;
+}
+
+form_login input[type=submit] {
+  font-size: 20px;
+  width: auto;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form_login input[type=submit]:hover {
+  background-color: #c9c9c9;
+}
+
+form_login input[type=button] {
+  font-size: 20px;
+  width: auto;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #7501a4;
+  color: white;
+}
+
+form_login input[type=button]:hover {
+  background-color: #620886;
+}
+
+footer {
+  float: left;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #757575;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7501a4;
+}

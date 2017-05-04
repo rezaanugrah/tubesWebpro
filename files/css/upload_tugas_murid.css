@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7501a4;
+}
+
+navbar li {
+    float: left;
+}
+
+navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+navbar li a:hover:not(.active) {
+    background-color: #500071;
+}
+
+.active {
+    background-color: #500071;
+}
+
+.logout {
+  background-color: #620886;
+}
+
+upload {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+upload input[type=number] {
+  margin: 70px 0px 20px 0px;
+  font-size: 20px;
+  width: 15%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+upload input[type=number]:focus {
+  border-bottom: solid 5px #7501a4;
+  outline: none;
+}
+
+upload input[type=text] {
+  margin: 20px;
+  font-size: 20px;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  border: none;
+  border: solid 5px #c9c9c9;
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+upload input[type=text]:focus {
+  border: solid 5px #7501a4;
+  outline: none;
+}
+
+upload input[type=file] {
+  margin: 20px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+upload input[type=submit] {
+  color: white;
+  font-size: 20px;
+  width: auto;
+  height: 60px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #7501a4;
+}
+
+upload input[type=submit]:hover {
+  background-color: #620886;
+}
+
+footer {
+  float: left;
+  padding: 70px 20px;
+  font-size: 12px;
+  color: #757575;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7501a4;
+}

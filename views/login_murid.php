@@ -12,6 +12,7 @@
       <kiri>
         <img src="<?php echo base_url('files/img/login_murid.jpg') ?>" alt="">
       </kiri>
+     
       <kanan>
         <h1>LOGIN MURID</h1>
         <form_login>
@@ -22,6 +23,7 @@
             <a href="<?php echo base_url('index.php/loginorangtua') ?>"><input type="button" value="login sebagai orang tua"></a>
           </form>
         </form_login>
+       
         <footer>
           &copy; 2017 Homeschooling 101 <br>
           <a href="divatec.org">Divatec</a>
@@ -30,4 +32,5 @@
     </div>
   </body>
 </html>
-<?php } else { redirect('berandamurid'); }?>
+<?php } else { redirect('berandamurid'); 
+             }?>
